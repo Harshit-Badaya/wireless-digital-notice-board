@@ -1,0 +1,85 @@
+body {
+						background-color:#ffffff;
+						background-image:url('/img/smart.png');
+						background-repeat:no-repeat;
+						background-position:center;
+						background-size:cover;
+						font: bold 18px/25px Arial, sans-serif;
+						color:LightGray;
+				}
+        
+        		button {
+        				display: block;
+        				position: relative;
+        				margin: 10px;
+        				padding: 0 10px;
+        				text-align: center;
+        				text-decoration: none;
+        				width: 130px;
+        				height: 40px;
+        				font: bold 18px/25px Arial, sans-serif;    				
+        				color: black;
+        				
+        				text-shadow: 1px 1px 1px rgba(255,255,255, .22);
+        				-webkit-border-radius: 30px;
+   						-moz-border-radius: 30px;
+    					border-radius: 30px;
+ 
+    					-webkit-box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+    					-moz-box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+    					box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+ 
+    					-webkit-transition: all 0.15s ease;
+    					-moz-transition: all 0.15s ease;
+    					-o-transition: all 0.15s ease;
+    					-ms-transition: all 0.15s ease;
+    					transition: all 0.15s ease;
+        		}
+        		
+        		input[type="range"] {
+        				display: block;
+        				width: 160px;
+        				height: 45px;
+        		}
+        		
+        		#gpio17.LOW {
+        				background-color: Gray;
+        				color: Black;
+        		}
+        		
+        		#gpio17.HIGH {
+        				background-color: Red;
+        				color: LightGray;
+        		}
+        		
+        		#gpio18.LOW {
+        				background-color: Gray;
+        				color: Black;
+        		}
+        		
+        		#gpio18.HIGH {
+        				background-color: Red;
+        				color: LightGray;
+        		}
+        		
+        		#gpio22.LOW {
+        				background-color: Gray;
+        				color: Black;
+        		}
+        		
+        		#gpio22.HIGH {
+        				background-color: Red;
+        				color: LightGray;
+        		}
+        		
+        		#gpio23.LOW {
+        				background-color: Gray;
+        				color: Black;
+        		}
+        		
+        		#gpio23.HIGH {
+        				background-color: Red;
+        				color: LightGray;
+        		}
+        		
+        		
